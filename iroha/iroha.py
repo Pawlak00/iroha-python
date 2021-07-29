@@ -248,6 +248,7 @@ class Iroha(object):
               ordering_sequence=None, first_tx_time=None,
               last_tx_time=None, first_tx_height=None,
               last_tx_height=None, **kwargs):
+
         """
         Creates a protobuf query with specified set of entities
         :param name: CamelCased name of query to be executed
